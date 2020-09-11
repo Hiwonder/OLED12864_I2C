@@ -220,6 +220,7 @@ namespace OLED12864_I2C {
         let col = 0
         let p = 0
         let ind = 0
+        _screen.fill(0)
         for (let n = 0; n < s.length; n++) {
             p = font[s.charCodeAt(n)]
             for (let i = 0; i < 5; i++) {
